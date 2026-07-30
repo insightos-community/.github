@@ -1,0 +1,33 @@
+name: 功能建议（中文）
+description: 提出 InsightOS 功能或文档改进建议。
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: textarea
+    attributes:
+      label: 问题
+      description: 描述用户问题，先不要限定具体实现。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 期望结果
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: 组件
+      options:
+        - 发行与安装器
+        - 能力框架
+        - 语义框架或 Pilot
+        - Insight Studio
+        - SDK
+        - 语义地图
+        - 仿真引擎或资产
+        - 软件包管理器
+        - 文档
+        - 其他
+    validations:
+      required: true
+

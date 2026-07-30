@@ -1,0 +1,31 @@
+name: Bug 报告（中文）
+description: 报告可复现的 InsightOS 问题。
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: input
+    attributes:
+      label: InsightOS 版本
+      placeholder: v0.1.0-preview.1
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 运行环境
+      description: 操作系统、硬件、浏览器和相关组件版本。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 复现步骤
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 预期结果与实际结果
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 日志或截图
+
