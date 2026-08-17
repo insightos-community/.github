@@ -57,17 +57,20 @@ The Public Preview will provide an installer and depalletizing assets through Gi
 
 See the [Quick Start](./docs/en/getting-started/quick-start.md) for the complete flow.
 
+For installation and startup via Docker, see [Installation](./docs/en/getting-started/installation.md).
+For the depalletizing operation flow, see [Studio Semantic Best Practices](./docs/en/user-guide/semantic-best-practices.md).
+
 ## Open-Source and Distribution Model
 
 InsightOS follows a phased open-source model. The Public Preview first delivers the binaries, example packages, and selected source components required for a complete trial. More modules and new features will open progressively.
 
 | Module | Current plan |
-|---|---|
+| --- | --- |
 | InsightOS repository | Product entry point, documentation, and GitHub Releases |
 | Ability Framework | Independent repository; open source |
 | Ability SDK | Independent repository; open source |
 | Insight Framework | Independent repository; preview binary; source opened progressively |
-| Insight Studio & Ops| Independent repository; preview binary; source opened progressively |
+| Insight Studio & Ops | Independent repository; preview binary; source opened progressively |
 | Semantic Map | Independent repository; preview binary; source opened progressively |
 | Simulator and simulation assets | Package distribution; assets use separate licenses |
 | Ability examples and scenario applications | Example packages with progressively expanded open content |
@@ -75,7 +78,7 @@ InsightOS follows a phased open-source model. The Public Preview first delivers 
 ## Feature Roadmap
 
 | Phase | Feature theme |
-|---|---|
+| --- | --- |
 | **2026 Q3: System Foundation and Public Preview** | Semantic system foundation, simulation resource model, Ability/Skill system, semantic world model, local trial, and starter examples |
 | **2026 Q4: Development Capabilities** | Workflow development, Skill development, simulation-scene development, and developer SDKs and toolchains |
 | **2027 Q1: Advanced Intelligence** | Experience evolution, continuous Skill improvement, anomaly awareness and handling, task recovery, and dynamic-environment adaptation |
@@ -84,7 +87,9 @@ InsightOS follows a phased open-source model. The Public Preview first delivers 
 ## Documentation
 
 - [Getting Started](./docs/en/getting-started/quick-start.md)
+- [Installation](./docs/en/getting-started/installation.md)
 - [User Guide](./docs/en/user-guide/insight-studio-and-projects.md)
+- [Studio Semantic Best Practices](./docs/en/user-guide/semantic-best-practices.md)
 - [Reference / FAQ](./docs/en/reference/faq.md)
 
 ## Contributing
@@ -94,4 +99,3 @@ Use Issues for questions and proposals, or submit Pull Requests to improve open-
 ## License
 
 Source code published in this repository is licensed under the [Apache License 2.0](./LICENSE) (`Apache-2.0`). Preview binaries, models, and simulation assets may carry their own licenses in their distribution packages.
-
