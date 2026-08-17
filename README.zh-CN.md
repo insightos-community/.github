@@ -57,6 +57,8 @@ Public Preview 将通过 GitHub Releases 提供安装包和拆码垛示例资产
 
 完整步骤见[快速开始](./docs/zh-CN/getting-started/quick-start.md)。
 
+基于 Docker 的安装与启动见[安装指南](./docs/zh-CN/getting-started/installation.md)；拆码垛操作流程见 [Studio Semantic 最佳实践](./docs/zh-CN/user-guide/semantic-best-practices.md)。
+
 ## 开源与分发方式
 
 InsightOS 采用分阶段开源方式：Public Preview 首先提供完整试用所需的二进制组件、示例包和部分组件源码，随后逐步开放更多模块和新 Features。
@@ -84,7 +86,9 @@ InsightOS 采用分阶段开源方式：Public Preview 首先提供完整试用�
 ## 文档
 
 - [Getting Started](./docs/zh-CN/getting-started/quick-start.md)
+- [安装指南](./docs/zh-CN/getting-started/installation.md)
 - [用户手册](./docs/zh-CN/user-guide/insight-studio-and-projects.md)
+- [Studio Semantic 最佳实践](./docs/zh-CN/user-guide/semantic-best-practices.md)
 - [Reference / FAQ](./docs/zh-CN/reference/faq.md)
 
 ## 参与贡献
