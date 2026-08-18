@@ -1,5 +1,5 @@
 # InsightOS Semantic
-[简体中文](./README.zh-CN.md) · [Quick Start](./docs/en/getting-started/quick-start.md) · [User Guide](./docs/en/user-guide/insight-studio-and-projects.md) · [FAQ](./docs/en/reference/faq.md)
+
 [简体中文](./README.zh-CN.md) · [Quick Start](./docs/en/getting-started/quick-start.md) · [Installation](./docs/en/getting-started/installation.md) · [User Guide](./docs/en/user-guide/insight-studio-and-projects.md) · [Best Practices](./docs/en/user-guide/semantic-best-practices.md) · [FAQ](./docs/en/reference/faq.md)
 
 > Make every robot capable of doing real work.

@@ -1,5 +1,5 @@
 # InsightOS Semantic
-[English](./README.md) · [快速开始](./docs/zh-CN/getting-started/quick-start.md) · [用户手册](./docs/zh-CN/user-guide/insight-studio-and-projects.md) · [FAQ](./docs/zh-CN/reference/faq.md)
+
 [English](./README.md) · [快速开始](./docs/zh-CN/getting-started/quick-start.md) · [安装指南](./docs/zh-CN/getting-started/installation.md) · [用户手册](./docs/zh-CN/user-guide/insight-studio-and-projects.md) · [最佳实践](./docs/zh-CN/user-guide/semantic-best-practices.md) · [FAQ](./docs/zh-CN/reference/faq.md)
 
 > 让每一种机器人都能真正干活。
