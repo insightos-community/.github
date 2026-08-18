@@ -40,6 +40,8 @@ The script automatically does the following:
 - Tags the image locally as `insightsemantic:1.0.0`.
 - Starts the InsightSemantic service.
 
+> Configuration templates are available in the repository at [docker/docker-compose.yaml](../../../docker/docker-compose.yaml) and [docker/.env.example](../../../docker/.env.example). After generation, you can adjust the configuration manually by referring to these templates.
+
 > If you are already logged in to Harbor, you can use the following command. Use `--pull` only when the `insightsemantic:1.0.0` image does not exist locally; there is no need to pull when the same image is already present.
 
 ```bash
@@ -48,7 +50,7 @@ The script automatically does the following:
 
 ## 3. Configure the LLM Key (Optional)
 
-Edit the `.env` file in the current directory and fill in at least one model Key. For example:
+Edit the `.env` file in the current directory and fill in at least one model Key. [docker/.env.example](../../../docker/.env.example) provides a full template of the variables. For example:
 
 ```bash
 DEEPSEEK_API_KEY=<YourKey>
