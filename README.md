@@ -1,6 +1,6 @@
 # InsightOS Semantic
-
 [简体中文](./README.zh-CN.md) · [Quick Start](./docs/en/getting-started/quick-start.md) · [User Guide](./docs/en/user-guide/insight-studio-and-projects.md) · [FAQ](./docs/en/reference/faq.md)
+[简体中文](./README.zh-CN.md) · [Quick Start](./docs/en/getting-started/quick-start.md) · [Installation](./docs/en/getting-started/installation.md) · [User Guide](./docs/en/user-guide/insight-studio-and-projects.md) · [Best Practices](./docs/en/user-guide/semantic-best-practices.md) · [FAQ](./docs/en/reference/faq.md)
 
 > Make every robot capable of doing real work.
 
@@ -58,7 +58,7 @@ The Public Preview will provide an installer and depalletizing assets through Gi
 See the [Quick Start](./docs/en/getting-started/quick-start.md) for the complete flow.
 
 For installation and startup via Docker, see [Installation](./docs/en/getting-started/installation.md).
-For the depalletizing operation flow, see [Studio Semantic Best Practices](./docs/en/user-guide/semantic-best-practices.md).
+For the depalletizing operation flow, see [insightOS Semantic Best Practices](./docs/en/user-guide/semantic-best-practices.md).
 
 ## Open-Source and Distribution Model
 
@@ -89,7 +89,7 @@ InsightOS follows a phased open-source model. The Public Preview first delivers 
 - [Getting Started](./docs/en/getting-started/quick-start.md)
 - [Installation](./docs/en/getting-started/installation.md)
 - [User Guide](./docs/en/user-guide/insight-studio-and-projects.md)
-- [Studio Semantic Best Practices](./docs/en/user-guide/semantic-best-practices.md)
+- [insightOS Semantic Best Practices](./docs/en/user-guide/semantic-best-practices.md)
 - [Reference / FAQ](./docs/en/reference/faq.md)
 
 ## Contributing

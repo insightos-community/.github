@@ -1,14 +1,14 @@
-# Studio Semantic Best Practices
+# insightOS Semantic Best Practices
 
 [简体中文](../../zh-CN/user-guide/semantic-best-practices.md)
 
 Standard operating steps from scene startup to workflow validation.
 
-![Studio Semantic standard operating flow: enter the project, start the simulation, configure the scene, generate a plan, and run validation](../../images/semantic-best-practices/flow-overview.png)
+![insightOS Semantic standard operating flow: enter the project, start the simulation, configure the scene, generate a plan, and run validation](../../images/semantic-best-practices/flow-overview.png)
 
 > **Reminder:** Before you start, switch the Agent to `leader-Leader-team` and make sure you are in the “Depalletizing” project.
 
-Scope: first-time execution of the Studio Semantic Depalletizing project, scene customization, and adding extra moving tasks.
+Scope: first-time execution of the insightOS Semantic Depalletizing project, scene customization, and adding extra moving tasks.
 
 ## Before You Start
 

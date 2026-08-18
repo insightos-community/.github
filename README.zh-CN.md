@@ -1,6 +1,6 @@
 # InsightOS Semantic
-
 [English](./README.md) · [快速开始](./docs/zh-CN/getting-started/quick-start.md) · [用户手册](./docs/zh-CN/user-guide/insight-studio-and-projects.md) · [FAQ](./docs/zh-CN/reference/faq.md)
+[English](./README.md) · [快速开始](./docs/zh-CN/getting-started/quick-start.md) · [安装指南](./docs/zh-CN/getting-started/installation.md) · [用户手册](./docs/zh-CN/user-guide/insight-studio-and-projects.md) · [最佳实践](./docs/zh-CN/user-guide/semantic-best-practices.md) · [FAQ](./docs/zh-CN/reference/faq.md)
 
 > 让每一种机器人都能真正干活。
 
@@ -57,7 +57,7 @@ Public Preview 将通过 GitHub Releases 提供安装包和拆码垛示例资产
 
 完整步骤见[快速开始](./docs/zh-CN/getting-started/quick-start.md)。
 
-基于 Docker 的安装与启动见[安装指南](./docs/zh-CN/getting-started/installation.md)；拆码垛操作流程见 [Studio Semantic 最佳实践](./docs/zh-CN/user-guide/semantic-best-practices.md)。
+基于 Docker 的安装与启动见[安装指南](./docs/zh-CN/getting-started/installation.md)；拆码垛操作流程见 [insightOS Semantic 最佳实践](./docs/zh-CN/user-guide/semantic-best-practices.md)。
 
 ## 开源与分发方式
 
@@ -88,7 +88,7 @@ InsightOS 采用分阶段开源方式：Public Preview 首先提供完整试用�
 - [Getting Started](./docs/zh-CN/getting-started/quick-start.md)
 - [安装指南](./docs/zh-CN/getting-started/installation.md)
 - [用户手册](./docs/zh-CN/user-guide/insight-studio-and-projects.md)
-- [Studio Semantic 最佳实践](./docs/zh-CN/user-guide/semantic-best-practices.md)
+- [insightOS Semantic 最佳实践](./docs/zh-CN/user-guide/semantic-best-practices.md)
 - [Reference / FAQ](./docs/zh-CN/reference/faq.md)
 
 ## 参与贡献
