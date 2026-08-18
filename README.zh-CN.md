@@ -59,6 +59,11 @@ Public Preview 将通过 GitHub Releases 提供安装包和拆码垛示例资产
 
 基于 Docker 的安装与启动见[安装指南](./docs/zh-CN/getting-started/installation.md)；拆码垛操作流程见 [insightOS Semantic 最佳实践](./docs/zh-CN/user-guide/semantic-best-practices.md)。
 
+## 演示视频
+
+- [insightOS Semantic 语义框架拆码垛实例（哔哩哔哩）](https://b23.tv/xKIMMtE)
+- [insightOS Semantic 语义框架拆码垛最佳实践（哔哩哔哩）](https://b23.tv/07bVBQT)
+
 ## 开源与分发方式
 
 InsightOS 采用分阶段开源方式：Public Preview 首先提供完整试用所需的二进制组件、示例包和部分组件源码，随后逐步开放更多模块和新 Features。

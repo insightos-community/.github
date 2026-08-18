@@ -60,6 +60,11 @@ See the [Quick Start](./docs/en/getting-started/quick-start.md) for the complete
 For installation and startup via Docker, see [Installation](./docs/en/getting-started/installation.md).
 For the depalletizing operation flow, see [insightOS Semantic Best Practices](./docs/en/user-guide/semantic-best-practices.md).
 
+## Demo Videos
+
+- [insightOS Semantic Depalletizing Example (Bilibili)](https://b23.tv/xKIMMtE)
+- [insightOS Semantic Depalletizing Best Practices (Bilibili)](https://b23.tv/07bVBQT)
+
 ## Open-Source and Distribution Model
 
 InsightOS follows a phased open-source model. The Public Preview first delivers the binaries, example packages, and selected source components required for a complete trial. More modules and new features will open progressively.
