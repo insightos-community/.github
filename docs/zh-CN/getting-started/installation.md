@@ -40,6 +40,8 @@ chmod +x run-insightsemantic.sh
 - 将镜像标记为本地 `insightsemantic:1.0.0`。
 - 启动 InsightSemantic 服务。
 
+> 配置文件模板见仓库 [docker/docker-compose.yaml](../../../docker/docker-compose.yaml) 与 [docker/.env.example](../../../docker/.env.example)，生成后可参考模板手动调整配置。
+
 > 已登录 Harbor 时，可使用以下命令。`--pull` 仅在本地不存在 `insightsemantic:1.0.0` 镜像时使用；本地已有相同镜像时无需拉取。
 
 ```bash
@@ -48,7 +50,7 @@ chmod +x run-insightsemantic.sh
 
 ## 3. 配置 LLM Key（按需）
 
-编辑当前目录的 `.env` 文件，至少填写一个模型 Key。例如：
+编辑当前目录的 `.env` 文件，至少填写一个模型 Key。`[docker/.env.example](../../../docker/.env.example)` 提供了完整的变量模板。例如：
 
 ```bash
 DEEPSEEK_API_KEY=<你的Key>

@@ -1,14 +1,14 @@
-# Studio Semantic 最佳实践指南
+# insightOS Semantic 最佳实践指南
 
 [English](../../en/user-guide/semantic-best-practices.md)
 
 从场景启动到工作流验证的标准操作步骤。
 
-![Studio Semantic 标准操作流程图：进入项目、启动仿真、配置场景、生成计划、运行验证](../../images/semantic-best-practices/flow-overview.png)
+![insightOS Semantic 标准操作流程图：进入项目、启动仿真、配置场景、生成计划、运行验证](../../images/semantic-best-practices/flow-overview.png)
 
 > **使用提醒：** 开始操作前，请先将 Agent 切换为 `leader-Leader-team`，并确保已进入“拆码垛项目”。
 
-适用范围：Studio Semantic 拆码垛项目的首次执行、场景个性化调整及追加搬运任务。
+适用范围：insightOS Semantic 拆码垛项目的首次执行、场景个性化调整及追加搬运任务。
 
 ## 开始前准备
 
