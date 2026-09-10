@@ -1,18 +1,17 @@
 <div align="center">
   <img src="docs/assets/logo.png" alt="InsightOS Semantic" width="100%">
 
-  <h3>An open framework for embodied AI applications</h3>
+  <h3>InsightOS Community · Embodied AI applications and ecosystem</h3>
 
   <p>
-    <a href="https://github.com/insightos-community/Sementic-Framework/stargazers"><img src="https://img.shields.io/github/stars/insightos-community/Sementic-Framework?style=social" alt="GitHub stars"></a>
+    <a href="https://github.com/insightos-community/Semantic-Framework/stargazers"><img src="https://img.shields.io/github/stars/insightos-community/Semantic-Framework?style=social" alt="GitHub stars"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-blue" alt="Apache-2.0 license"></a>
-    <img src="https://img.shields.io/badge/Version-0.5.0--dev-14796b" alt="Version 0.5.0 development">
     <a href="https://semantic.insightos.cn/"><img src="https://img.shields.io/badge/Website-Semantic-3268d8" alt="Semantic website"></a>
   </p>
 
   <p>
     <b>English</b> · <a href="README.zh-CN.md">简体中文</a><br>
-    <a href="#quick-start">Quick start</a> · <a href="#system-architecture">System architecture</a> · <a href="#ecosystem">Ecosystem</a> · <a href="https://github.com/insightos-community/semantic-docs/tree/main/docs">Documentation</a> · <a href="https://github.com/insightos-community/Sementic-Framework/issues">Issues</a>
+    <a href="#quick-start">Quick start</a> · <a href="#system-architecture">System architecture</a> · <a href="#ecosystem">Ecosystem</a> · <a href="https://github.com/insightos-community/semantic-docs/tree/main/docs">Documentation</a> · <a href="https://github.com/insightos-community/Semantic-Framework/issues">Issues</a>
   </p>
 </div>
 
@@ -21,6 +20,8 @@
 InsightOS Semantic is an embodied semantic agent system created for real-world robotic applications. It connects robot embodiments, environments, tasks, Skills, and operational experience through semantics, turning natural-language requests into executable robot tasks across the complete **understand–plan–execute–evolve** loop.
 
 InsightOS Semantic supports scenarios including warehouse picking and delivery, depalletizing and palletizing, multi-robot production lines, and scheduled inspection, and connects humanoids, quadrupeds, manipulators, mobile robots, and other robot embodiments.
+
+Welcome to the **InsightOS Community organization portal** for product discovery, component navigation, and community collaboration. Visit the [Semantic-Framework product repository](https://github.com/insightos-community/Semantic-Framework) for installation, usage, and framework development.
 
 ## Why Semantic?
 
@@ -59,34 +60,11 @@ The system has four parts: application interaction, task orchestration, robot ex
 
 ## Quick start
 
-### 1. Install the binary package
+Try the complete system on Linux x86_64 with the binary installer, including Server, Studio, native MuJoCo, the R1 Pro Robot Bundle, scene assets, and robot skills.
 
-On **Linux x86_64**, prepare Bash, curl, and Python 3.10+, then run:
-
-```bash
-curl -fsSL https://semantic.insightos.cn/install-en.sh | bash -s -- --install-system-deps
-```
-
-The installer prepares Server, Studio, native MuJoCo, the R1 Pro Robot Bundle, scene assets, and the navigation, grasp, and placement skills. It installs to `$HOME/.local/share/semantic` and starts the services. `--install-system-deps` enables installation of the required system libraries through the host's package manager.
-
-### 2. Open Studio
-
-Open **http://localhost:3000** and sign in as **`admin`** using the generated password shown by the installer. To display the login details again and check service status:
-
-```bash
-export SEMANTIC_HOME="$HOME/.local/share/semantic"
-export PATH="$SEMANTIC_HOME/bin:$PATH"
-semanticctl welcome
-semanticctl status
-```
-
-From another device on the same network, open `http://<server-ip>:3000`. The web gateway listens on `0.0.0.0:3000` by default. Use `semanticctl stop` and `semanticctl start` to stop and start the installation's services.
-
-In Studio's **System Settings**, configure a model with tool-calling support, then create a project and start a scene. Follow [Your first Project](https://github.com/insightos-community/semantic-docs/blob/main/docs/user/getting-started/first-project.md) to run a robot task.
-
-### Detailed installation guides
-
-Continue with **[Quick Start (English)](https://github.com/insightos-community/quick-start/blob/main/README.md)** for the installation documentation and source build workflow. Custom directories and ports, service management, and other binary installation options are covered in the **[binary installer reference (Chinese)](https://github.com/insightos-community/quick-start/blob/main/artifacts/README.md)**. Compatible component revisions are recorded in the [version manifest](https://github.com/insightos-community/quick-start/blob/main/repo-versions.json).
+- [Install and run the product](https://github.com/insightos-community/Semantic-Framework#quick-start): install services, sign in to Studio, configure a model, and create a project.
+- [Develop Framework](https://github.com/insightos-community/Semantic-Framework#framework-development): source structure, build and run instructions, and Robot Bundle workflows.
+- [Detailed installation guide](https://github.com/insightos-community/quick-start/blob/main/README.md): complete-system installation and compatible component versions.
 
 ## Ecosystem
 
@@ -94,7 +72,7 @@ Semantic is developed across repositories that share one task and execution mode
 
 | Layer | Repository | Responsibility |
 |:--|:--|:--|
-| Semantic framework | **[semantic-framework](https://github.com/insightos-community/Sementic-Framework)** | Server, Pilot, CLI, agents, orchestration, and shared contracts. |
+| Semantic framework | **[semantic-framework](https://github.com/insightos-community/Semantic-Framework)** | Server, Pilot, CLI, agents, orchestration, and shared contracts. |
 | Interface | [semantic-web](https://github.com/insightos-community/semantic-web) | Semantic Studio, including project, robot, workflow, and simulation views. |
 | Documentation | [semantic-docs](https://github.com/insightos-community/semantic-docs) | Architecture, user guides, and component development documentation. |
 | Robot skills | [robot-skill](https://github.com/insightos-community/robot-skill) | Robot Skill SDK and navigation, grasp, and placement implementations. |
@@ -124,7 +102,7 @@ Semantic is developed across repositories that share one task and execution mode
 - **[System architecture](https://github.com/insightos-community/semantic-docs/tree/main/docs/architecture)** — projects, agents, planning, execution, and deployment.
 - **[User guides](https://github.com/insightos-community/semantic-docs/tree/main/docs/user)** — Studio, environment setup, and robot task operation.
 - **[Developer documentation](https://github.com/insightos-community/semantic-docs/tree/main/docs/developer)** — core modules, extension interfaces, and component development.
-- **[Issues](https://github.com/insightos-community/Sementic-Framework/issues)** — report a problem or discuss a feature with the project.
+- **[Issues](https://github.com/insightos-community/Semantic-Framework/issues)** — report a problem or discuss a feature with the project.
 
 Contributions to the core, Studio, skills, robot adapters, scenes, and documentation are welcome. Open an issue with the task you want to support, or submit a pull request to the relevant component repository. Include a reproducible example and validation appropriate to the change. See the [contributor guide](https://github.com/insightos-community/semantic-docs/blob/main/docs/developer/reference/contributing/_index.md) for the broader workflow.
 

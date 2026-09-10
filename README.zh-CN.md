@@ -1,18 +1,17 @@
 <div align="center">
   <img src="docs/assets/logo.png" alt="InsightOS Semantic" width="100%">
 
-  <h3>面向具身场景的语义智能体系统</h3>
+  <h3>InsightOS Community · 具身智能应用与组件生态</h3>
 
   <p>
-    <a href="https://github.com/insightos-community/Sementic-Framework/stargazers"><img src="https://img.shields.io/github/stars/insightos-community/Sementic-Framework?style=social" alt="GitHub Stars"></a>
+    <a href="https://github.com/insightos-community/Semantic-Framework/stargazers"><img src="https://img.shields.io/github/stars/insightos-community/Semantic-Framework?style=social" alt="GitHub Stars"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-blue" alt="Apache-2.0 许可证"></a>
-    <img src="https://img.shields.io/badge/Version-0.5.0--dev-14796b" alt="0.5.0 开发版">
     <a href="https://semantic.insightos.cn/"><img src="https://img.shields.io/badge/Website-Semantic-3268d8" alt="Semantic 官网"></a>
   </p>
 
   <p>
     <a href="README.md">English</a> · <b>简体中文</b><br>
-    <a href="#快速开始">快速开始</a> · <a href="#系统架构">系统架构</a> · <a href="#组件生态">组件生态</a> · <a href="https://github.com/insightos-community/semantic-docs/tree/main/docs">项目文档</a> · <a href="https://github.com/insightos-community/Sementic-Framework/issues">问题反馈</a>
+    <a href="#快速开始">快速开始</a> · <a href="#系统架构">系统架构</a> · <a href="#组件生态">组件生态</a> · <a href="https://github.com/insightos-community/semantic-docs/tree/main/docs">项目文档</a> · <a href="https://github.com/insightos-community/Semantic-Framework/issues">问题反馈</a>
   </p>
 </div>
 
@@ -20,6 +19,8 @@
 InsightOS Semantic 是具识智能面向具身场景打造的语义智能体系统。它以语义连接机器人本体、环境、任务、Skill 和运行经验，将自然语言需求转化为机器人可以执行的任务，并贯通**理解—规划—执行—进化**的完整闭环。
 
 InsightOS Semantic 支持售货仓取货配送、拆码垛搬运、多机协同流水线、定时巡检等场景，可连接人形机器人、四足机器人、机械臂和移动机器人等多种本体。
+
+这里是 **InsightOS Community 组织门户**，提供产品概览、组件生态和社区协作入口。安装使用与框架开发请前往 [Semantic-Framework 产品主仓](https://github.com/insightos-community/Semantic-Framework)。
 
 ## 为什么选择 Semantic？
 
@@ -58,34 +59,11 @@ InsightOS Semantic 使用统一语义连接任务、环境、本体和能力，�
 
 ## 快速开始
 
-### 1. 二进制安装
+在 Linux x86_64 上使用二进制安装器体验完整系统，包括 Server、Studio、原生 MuJoCo、R1 Pro Robot Bundle、场景资产和机器人技能。
 
-在 **Linux x86_64** 机器上准备 Bash、curl 和 Python 3.10+，执行：
-
-```bash
-curl -fsSL https://semantic.insightos.cn/install.sh | bash -s -- --install-system-deps
-```
-
-安装器会准备 Server、Studio、原生 MuJoCo、R1 Pro Robot Bundle、场景资产，以及导航、抓取和放置技能，默认安装到 `$HOME/.local/share/semantic` 并启动服务。`--install-system-deps` 表示通过宿主机的包管理器安装所需系统库。
-
-### 2. 打开 Studio
-
-打开 **http://localhost:3000**，使用 **`admin`** 和安装器显示的随机密码登录。以下命令可以重新查看登录信息与服务状态：
-
-```bash
-export SEMANTIC_HOME="$HOME/.local/share/semantic"
-export PATH="$SEMANTIC_HOME/bin:$PATH"
-semanticctl welcome
-semanticctl status
-```
-
-从同一网络中的另一台设备访问时，使用 `http://<服务器 IP>:3000`。Web 网关默认监听 `0.0.0.0:3000`。日常启停服务使用 `semanticctl stop` 和 `semanticctl start`。
-
-在 Studio 的**系统设置**中配置支持工具调用的模型，再创建项目并启动场景，即可按[第一个 Project](https://github.com/insightos-community/semantic-docs/blob/main/docs/user/getting-started/first-project.md)运行机器人任务。
-
-### 详细安装指南
-
-完整安装文档与源码构建流程见 **[Quick Start 中文指南](https://github.com/insightos-community/quick-start/blob/main/README.zh-CN.md)**。自定义目录和端口、服务管理及其他二进制安装选项见 **[二进制安装说明](https://github.com/insightos-community/quick-start/blob/main/artifacts/README.md)**，各组件的配套版本见[版本清单](https://github.com/insightos-community/quick-start/blob/main/repo-versions.json)。
+- [产品安装与首次运行](https://github.com/insightos-community/Semantic-Framework/blob/main/README.zh-CN.md#快速开始)：安装系统、登录 Studio、配置模型并创建项目。
+- [Framework 开发](https://github.com/insightos-community/Semantic-Framework/blob/main/README.zh-CN.md#framework-开发)：源码结构、编译启动与 Robot Bundle 工作流。
+- [详细安装指南](https://github.com/insightos-community/quick-start/blob/main/README.zh-CN.md)：完整系统安装与组件配套版本。
 
 ## 组件生态
 
@@ -93,7 +71,7 @@ Semantic 的组件围绕共同的任务模型和执行链路协作。本仓库�
 
 | 层次 | 仓库 | 职责 |
 |:--|:--|:--|
-| 语义框架 | **[semantic-framework](https://github.com/insightos-community/Sementic-Framework)** | Server、Pilot、CLI、智能体、任务编排与共享契约。 |
+| 语义框架 | **[semantic-framework](https://github.com/insightos-community/Semantic-Framework)** | Server、Pilot、CLI、智能体、任务编排与共享契约。 |
 | 用户界面 | [semantic-web](https://github.com/insightos-community/semantic-web) | Semantic Studio，包含项目、机器人、工作流与仿真视图。 |
 | 项目文档 | [semantic-docs](https://github.com/insightos-community/semantic-docs) | 系统架构、用户指南与组件开发文档。 |
 | 机器人技能 | [robot-skill](https://github.com/insightos-community/robot-skill) | Robot Skill SDK，以及导航、抓取和放置技能。 |
@@ -123,7 +101,7 @@ Semantic 的组件围绕共同的任务模型和执行链路协作。本仓库�
 - **[系统架构](https://github.com/insightos-community/semantic-docs/tree/main/docs/architecture)**：项目、智能体、任务规划、执行链路与部署关系。
 - **[用户手册](https://github.com/insightos-community/semantic-docs/tree/main/docs/user)**：Studio、环境配置与机器人任务操作。
 - **[开发文档](https://github.com/insightos-community/semantic-docs/tree/main/docs/developer)**：核心模块、扩展接口与组件开发。
-- **[Issues](https://github.com/insightos-community/Sementic-Framework/issues)**：反馈问题，交流使用场景与功能建议。
+- **[Issues](https://github.com/insightos-community/Semantic-Framework/issues)**：反馈问题，交流使用场景与功能建议。
 
 欢迎为核心服务、Studio、机器人技能、设备适配、场景和文档贡献代码与想法。你可以先通过 Issue 描述希望支持的任务，也可以直接向对应组件仓库提交 Pull Request，并附上可复现示例与适合该变更的验证结果。协作流程见[贡献指南](https://github.com/insightos-community/semantic-docs/blob/main/docs/developer/reference/contributing/_index.md)。
 
