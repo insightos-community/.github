@@ -13,7 +13,7 @@ The product is currently developed and validated around these scenarios:
 - Multi-robot production lines.
 - Scheduled inspection.
 
-The Public Preview begins with a depalletizing simulation. See the corresponding Release for specific robot models, adapters, and scenario packages.
+The binary installer includes native MuJoCo, the R1 Pro Robot Bundle, scene assets, and navigation, grasp, and placement skills. See [Quick Start](../getting-started/quick-start.md) for installation and the [component version manifest](https://github.com/insightos-community/quick-start/blob/main/repo-versions.json) for compatible revisions.
 
 ## How can I participate?
 
@@ -25,4 +25,3 @@ You can participate in InsightOS by:
 - Contributing scenario applications, simulation resources, and example projects.
 
 Read the [Contributing Guide](../../../CONTRIBUTING.md) before submitting a contribution.
-

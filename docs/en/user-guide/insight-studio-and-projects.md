@@ -1,12 +1,12 @@
-# Insight Studio and Projects
+# Semantic Studio and Projects
 
 [简体中文](../../zh-CN/user-guide/insight-studio-and-projects.md)
 
-Insight Studio is the semantic application development and interaction entry point for InsightOS Semantic. Use it to manage projects, compose Skills, run tasks, and view simulation.
+Semantic Studio is the semantic application development and interaction entry point for InsightOS Semantic. Use it to manage projects, compose Skills, run tasks, and view simulation.
 
 ## Project Library
 
-The project library displays installed scenario applications. The Public Preview includes a Depalletizing project by default, and future packages can add more projects.
+After installation, configure a model with tool-calling support in System Settings, create a project, and start a scene. The installer includes the R1 Pro Robot Bundle, scene assets, and navigation, grasp, and placement skills. Follow [Your first Project](https://github.com/insightos-community/semantic-docs/blob/main/docs/user/getting-started/first-project.md) for the task operation flow.
 
 ## Project Contents
 
@@ -20,13 +20,12 @@ A project typically contains:
 
 ## Conversational Task Creation
 
-Users describe goals in natural language. Insight Studio turns each request into a task goal and workflow, then displays the required Skills, robot assignments, and execution progress.
+Users describe goals in natural language. Semantic Studio turns each request into a task goal and workflow, then displays the required Skills, robot assignments, and execution progress.
 
 ## Simulation
 
-When a project opens, Insight Studio can load its simulation scene. Users can inspect robots, objects, semantic environment state, and task execution.
+When a project opens, Semantic Studio can load its simulation scene. Users can inspect robots, objects, semantic environment state, and task execution.
 
 ## Skill Documents
 
 Skill documents in the project describe available capabilities, inputs, outputs, and applicable tasks. Developers can create new Skills with the SDK and install them into projects.
-

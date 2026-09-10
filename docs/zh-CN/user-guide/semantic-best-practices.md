@@ -1,5 +1,7 @@
 # insightOS Semantic 最佳实践指南
 
+> 本文记录旧版拆码垛示例的界面与项目配置。当前 Studio 操作流程请参阅[第一个 Project](https://github.com/insightos-community/semantic-docs/blob/main/docs/user/getting-started/first-project.md)，安装请参阅[快速开始](../getting-started/quick-start.md)。
+
 [English](../../en/user-guide/semantic-best-practices.md)
 
 从场景启动到工作流验证的标准操作步骤。

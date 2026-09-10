@@ -1,5 +1,7 @@
 # insightOS Semantic Best Practices
 
+> This guide documents the legacy depalletizing example UI and project configuration. For the current Studio workflow, follow [Your first Project](https://github.com/insightos-community/semantic-docs/blob/main/docs/user/getting-started/first-project.md). Install the system using [Quick Start](../getting-started/quick-start.md).
+
 [简体中文](../../zh-CN/user-guide/semantic-best-practices.md)
 
 Standard operating steps from scene startup to workflow validation.

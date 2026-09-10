@@ -13,7 +13,7 @@ InsightOS 面向人形机器人、四足机器人、机械臂和移动机器人�
 - 多机协同流水线。
 - 定时巡检。
 
-Public Preview 首先提供拆码垛仿真场景。具体机器人型号、适配器和场景包以对应 Release 的说明为准。
+二进制安装器包含原生 MuJoCo、R1 Pro Robot Bundle、场景资产，以及导航、抓取和放置技能。安装流程见[快速开始](../getting-started/quick-start.md)，各组件配套版本见[版本清单](https://github.com/insightos-community/quick-start/blob/main/repo-versions.json)。
 
 ## 如何参与项目？
 
@@ -25,4 +25,3 @@ Public Preview 首先提供拆码垛仿真场景。具体机器人型号、适�
 - 共建场景应用、仿真资源和示例项目。
 
 提交贡献前请阅读[贡献指南](../../../CONTRIBUTING.zh-CN.md)。
-
